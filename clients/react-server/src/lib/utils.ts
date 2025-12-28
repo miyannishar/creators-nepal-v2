@@ -1,7 +1,7 @@
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-// Note: patronClient has been removed. Use Supabase client from @/lib/supabase instead.
+// Note: Use Supabase client from @/lib/supabase for all backend operations.
 // Example:
 // import { supabase } from '@/lib/supabase';
 // const { data, error } = await supabase.from('table_name').select('*');

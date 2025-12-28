@@ -54,7 +54,7 @@ export const Home = (): JSX.Element => {
           <div className="absolute top-0 -left-[5px] h-full w-[5px] bg-black" />
           <div className="flex items-center gap-2.5 bg-white px-[10px] py-[5px]">
             <Link2 size={20} />
-            <p className="text-base">patron.com/{urlSlug}</p>
+            <p className="text-base">creatorsnepal.com/{urlSlug}</p>
           </div>
         </div>
         <Customization initialData={userProfile ?? undefined} />
@@ -76,7 +76,7 @@ export const Home = (): JSX.Element => {
             {!userPosts || userPosts.length === 0 ? (
               <div className="relative col-span-full flex flex-col items-center justify-center gap-5 bg-white p-10">
                 <PxBorder width={3} radius="lg" />
-                <h2 className="text-2xl">Welcome to your Patron page!</h2>
+                <h2 className="text-2xl">Welcome to your Creators Nepal page!</h2>
                 <p className="text-lg">
                   Create your first post to start sharing content with your audience.
                 </p>

@@ -118,7 +118,7 @@ export const CreatorDashboard = (): JSX.Element => {
           <div className="absolute top-0 -left-[5px] h-full w-[5px] bg-black" />
           <div className="flex items-center gap-2.5 bg-white px-[10px] py-[5px]">
             <Link2 size={20} />
-            <p className="text-base">patron.com/{urlSlug}</p>
+            <p className="text-base">creatorsnepal.com/{urlSlug}</p>
           </div>
         </div>
         <Customization initialData={userProfile ?? undefined} />

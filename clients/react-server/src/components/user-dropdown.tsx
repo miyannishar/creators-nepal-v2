@@ -59,7 +59,7 @@ export const UserDropdown = (): JSX.Element => {
               <DropdownMenuItem className="text-lg">
                 <a
                   className="flex items-center gap-3"
-                  href="https://patron.com/privacy-policy"
+                  href="https://creatorsnepal.com/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -70,7 +70,7 @@ export const UserDropdown = (): JSX.Element => {
               <DropdownMenuItem className="text-lg">
                 <a
                   className="flex items-center gap-3"
-                  href="https://patron.com/terms-of-service"
+                  href="https://creatorsnepal.com/terms-of-service"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

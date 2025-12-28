@@ -129,11 +129,11 @@ const EmailStep = ({
 
       <p className="mt-5 text-center text-xs">
         By joining, you agree to our{' '}
-        <a target="_blank" href="https://patron.com/terms-of-service" className="underline">
+        <a target="_blank" href="https://creatorsnepal.com/terms-of-service" className="underline">
           Terms of Service
         </a>{' '}
         and{' '}
-        <a target="_blank" href="https://patron.com/privacy-policy" className="underline">
+        <a target="_blank" href="https://creatorsnepal.com/privacy-policy" className="underline">
           Privacy Policy
         </a>
       </p>
