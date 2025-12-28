@@ -17,8 +17,7 @@ Patron is purpose-built for creators publishing sequential content like webcomic
 
 This repository contains the following main applications and components:
 
-- **`/website`** - Marketing website built with [Astro](https://astro.build)
-- **`/clients/react-server`** - Web application for creators and patrons built with [React](https://react.dev/) and [Vite](https://vite.dev/)
+- **`/clients/react-server`** - Full web application including landing page, authentication, and creator/supporter dashboards built with [React](https://react.dev/) and [Vite](https://vite.dev/)
 - **`/supabase`** - Database migrations and Supabase configuration
 
 > **Note**: This project has been migrated from a Rust backend to [Supabase](https://supabase.com) for simplified architecture and better developer experience. See [MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md) for details.

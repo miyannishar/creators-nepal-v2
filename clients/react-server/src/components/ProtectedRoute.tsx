@@ -68,8 +68,8 @@ export default function ProtectedRoute({
       !requireAuth &&
       (location.pathname === '/login' || location.pathname === '/register')
     ) {
-      console.log('[ProtectedRoute] User authenticated but on auth page, redirecting to home');
-      navigate('/', { replace: true, viewTransition: true });
+      console.log('[ProtectedRoute] User authenticated but on auth page, redirecting to dashboard');
+      navigate('/dashboard', { replace: true, viewTransition: true });
       return;
     }
 

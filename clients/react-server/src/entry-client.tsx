@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter, Outlet, useNavigate, Navigate } fr
 // UserInfo type removed - use Supabase User type from @supabase/supabase-js
 import { AuthProvider } from '@/contexts/SupabaseAuthContext';
 import { AppDataProvider } from '@/contexts/AppDataContext';
+import LandingPage from '@/pages/landing';
 import Home from '@/pages/home';
 import { Login } from '@/pages/login';
 import { Register } from '@/pages/register';
@@ -41,10 +42,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: () => {
-          console.log('[Router] Redirecting index route (/) to /dashboard');
-          return <Navigate to="/dashboard" replace />;
-        },
+        Component: LandingPage,
         errorElement: <ErrorBoundary />,
       },
       {
@@ -231,8 +229,6 @@ const App = (): JSX.Element => {
     <AuthProvider>
       <AppDataProvider
         initialPosts={initialData?.posts}
-        initialSeries={initialData?.series}
-        initialSingleSeries={initialData?.singleSeries}
         initialSinglePost={initialData?.singlePost}
       >
         <RouterProvider router={router} />
