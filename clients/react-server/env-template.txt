@@ -1,0 +1,16 @@
+# Supabase Configuration for Patron
+# Copy this file to .env.local
+VITE_SUPABASE_URL=https://cbyamzmgrgxtddhtfjcs.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNieWFtem1ncmd4dGRkaHRmamNzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5MDc3MjIsImV4cCI6MjA4MjQ4MzcyMn0.ku3qW6_ZrfJmijOdesFqC_9Oe3KQhWRYeYSANkiJ7P4
+
+# Application Configuration
+VITE_APP_NAME=Patron
+VITE_APP_URL=http://localhost:5173
+
+# Google OAuth (configured in Supabase Dashboard)
+# Go to: https://app.supabase.com/project/cbyamzmgrgxtddhtfjcs/auth/providers
+# Enable Google and add your OAuth credentials
+
+# Optional: Analytics, Monitoring, etc.
+# VITE_ANALYTICS_ID=your_analytics_id
+
